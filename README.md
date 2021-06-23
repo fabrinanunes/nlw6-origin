@@ -1,5 +1,6 @@
 <p align="center">
-  
+  <img width="700" alt="Captura de Tela 2021-06-22 às 06 22 14" src="https://user-images.githubusercontent.com/84260347/122899468-3bc44780-d322-11eb-9318-31634b97a1b0.png">
+
 </p>
 
 ## 🚀 Tecnologias

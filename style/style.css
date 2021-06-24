@@ -116,8 +116,8 @@ body {
   width: 100%;
 }
 
-#header.scroll{
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, .15);
+#header.scroll {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
 /*                                          --NAV*/
@@ -165,10 +165,10 @@ nav .menu {
   visibility: hidden;
   top: -32rem;
 
-  transition: .2s;
+  transition: 0.2s;
 }
 
-nav .menu ul{
+nav .menu ul {
   display: none;
 }
 
@@ -189,7 +189,7 @@ nav.show .menu {
   place-content: center;
 }
 
-nav.show .menu ul{
+nav.show .menu ul {
   display: grid;
 }
 
@@ -211,7 +211,7 @@ nav .icon-close {
   position: absolute;
   right: 2.4rem;
   top: -2.4rem;
-  
+
   transition: 0.2s;
 }
 
@@ -345,4 +345,97 @@ main {
 .card title {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
+}
+
+/*                        --TESTIMONIALS*/
+
+#testimonials {
+  background: white;
+}
+
+#testiomials .container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#testimonials header {
+  margin-bottom: 0;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+#testimonials blockquote {
+  padding: 3.2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.4rem;
+}
+
+#testimonials blockquote p {
+  position: relative;
+  text-indent: 3rem;
+  margin-bottom: 2.4rem;
+  color: var(--title-color);
+}
+
+#testimonials blockquote p span {
+  font: 700 4rem serif;
+
+  position: absolute;
+  top: -0.6rem;
+  left: -3rem;
+  color: var(--base-color);
+}
+
+#testimonials cite {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
+#testimonials cite img {
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-right: 0.8rem;
+}
+
+/*                    --swiper*/
+.swiper-slide {
+  height: auto;
+  padding: 6.4rem 1.6rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--base-color);
+}
+
+/*                               --CONTACT*/
+
+#contact .grid {
+  gap: 6.4rem;
+}
+
+#contact .text p {
+  margin-bottom: 3.2rem;
+}
+
+#contact .button i,
+#contact ul li i {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+#contact ul.grid {
+  gap: 3.2rem;
+  list-style: none;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+}
+
+#contact ul li i {
+  color: var(--base-color);
 }
